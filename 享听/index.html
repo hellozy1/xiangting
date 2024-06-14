@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>享听</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/XT.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="img/logo1.ico">
+</head>
+<body background="img/b.jpg"
+       style="background-repeat:no-repeat;
+       background-size:100% 100%;
+       background-attachment: fixed;">
+<!--             头部                   -->
+<div class="header">
+  <div class="nav inner">
+    <div class="nav_t">
+      <div class="logo"> <a href="index.html"><img src="img/logo.png" alt=""/></a> </div>
+      <div class="top_nav__item">
+        <ul>
+          <li><a href="index.html" class="current" title ="音乐馆">音乐馆</a></li>
+          <li><a href="code/XT_2.html" target="_blank" title="我的音乐">我的音乐</a></li> 
+          <li><a href="#" title="客户端">客户端</a></li>
+          <li><a href="#" title="开放平台">开放平台</a></li>
+          <li><a href="#" title="VIP">&nbsp;&nbsp;&nbsp;&nbsp;VIP&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        </ul>
+        <!---横向导航栏使用无序列表---> 
+      </div>
+      <div class="search">
+        <input type="text" placeholder="  搜索音乐、MV、歌单、用户" />
+        <a href="#"><span>搜索</span></a> <i></i> </div>
+      <div class="header_buttons">
+        <div class="user"> <img src="img/head.jpg" alt=""> <span class="un"></span> <img id="login" src="img/login_qq.png" alt=""><!-----右上角用户头像---border-radius 允许你设置元素的外边框圆角。当使用一个半径时确定一个圆形，当使用两个半径时确定一个椭圆。这个(椭)圆与边框的交集形成圆角效果。
+
+border-radius 属性是一个最多可指定四个 border-*-radius 属性的复合属性--------> 
+          
+        </div>
+      </div>
+    </div>
+    <div class="nav_b">
+      <ul>
+        <li> <a class="current" href="#">首页</a> </li>
+        <li> <a href="#">专辑</a> </li>
+        <li> <a href="#">歌手</a> </li>
+        <li> <a href="#">排行榜</a> </li>
+        <li> <a href="#">分类歌单</a> </li>
+        <li> <a href="#">电台</a> </li>
+        <li> <a href="#">MV</a> </li>
+        <li> <a href="#">数字专辑</a> </li>
+        <li> <a href="#">票务</a> </li>
+      </ul>
+    </div><!--第二行横向导航栏-->
+  </div>
+</div>
+<!-- 歌单推荐 -->
+<div class="content">
+  <div class="inner">
+    <div class="songSheet">
+      <div class="songSheet_head"> <span class="subtitle">歌  单  推  荐</span> </div><!---------首页中大量使用了无序列表，当网页中的内容属于某种列表时，你可以考虑使用无序列表（<ul>）来展示这些内容。 这不仅能改进 HTML 代码的可读性，还能为某些原本没有意义的内容赋予明确的意义----------->
+      <div class="songSheet_table">
+        <ul>
+          <li> <a href="#" class="current">为你推荐</a> </li>
+          <li> <a href="#">欧美榜单</a> </li>
+          <li> <a href="#">国语</a> </li>
+          <li> <a href="#">粤语精选</a> </li>
+          <li> <a href="#">00年代</a> </li>
+          <li> <a href="#">纯音乐</a> </li>
+        </ul><!--歌单下方导航栏---->
+      </div>
+      <div class="songSheet">
+        <div class="songSheet_pics">
+          <ul>
+            <li> <img src="img/林俊杰1.webp" alt="" class="songSheet_pic"/> <i class="mask"></i> <i class="cover_icon_play"></i> </li>
+            <li> <img src="img/psb.jpg" alt="" class="songSheet_pic"/> <i class="mask"></i> <i class="cover_icon_play"></i> </li>
+            <li> <img src="img/600.webp" alt="" class="songSheet_pic"/> <i class="mask"></i> <i class="cover_icon_play"></i> </li>
+            <li> <img src="img/dsjd.webp" alt="" class="songSheet_pic"/> <i class="mask"></i> <i class="cover_icon_play"></i> </li>
+            <li> <img src="img/600 (1).webp" alt="" class="songSheet_pic"/> <i class="mask"></i> <i class="cover_icon_play"></i> </li>
+          </ul><!--图片部分--使用了opacity Transform transtion filterden等属性来改变鼠标移动到图像上时图像的变化------>
+        </div>
+        <div class="songSheet_names">
+          <ul>
+            <li> <a href="">Live：林俊杰的那些神级现场</a> <span>播放量：1353万</span> </li>
+            <li> <a href="">Ed sheeran | 冬日旋律</a> <span>播放量：441万</span> </li>
+            <li> <a href="">蒸汽波 | 落日飞车</a> <span>播放量：13.6万</span> </li>
+            <li> <a href="">吉他指弹：大师经典作品集</a> <span>播放量：13.5万</span> </li>
+            <li> <a href="">2021年1月华语新歌推荐</a> <span>播放量：135.1万</span> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 新歌首发 -->
+<div class="content">
+  <div class="inner">
+    <div class="songSheet">
+      <div class="songSheet_h new"> <span class="subtitle">新  歌  首  发</span> </div>
+      <a href="#" class="playall"><i></i>播放全部</a>
+      <div class="songSheet_table area">
+        <ul>
+          <li> <a href="#" class="current">内地</a> </li>
+          <li> <a href="#">港台</a> </li>
+          <li> <a href="#">欧美</a> </li>
+          <li> <a href="#">日本</a> </li>
+          <li> <a href="#">韩国</a> </li>
+        </ul>
+      </div>
+      <div class="newsongs">
+        <ul>
+          <li class="firstline"> <img src="img/wsl.webp" title ="No One Knows" class="newsongs_pics" alt=""> <a href="#" title="No One Knows 《南方有乔木》电视剧插曲" class="current">No One Knows 《南方有乔木...</a> <a href="#" class="songer" title="汪苏泷">汪苏泷</a> <span>3:55</span> <i class="mask2"></i> <i class="cover_icon_play2"></i> </li>
+          <li class="firstline"> <img src="img/ydqc.webp" title ="远大前程" class="newsongs_pics" alt=""> <a href="#" title="远大前程">远大前程</a> <a href="#" class="songer" title="南征北战NZBZ">南征北战NZBZ</a> <span>3:23</span> <i class="mask2"></i> <i class="cover_icon_play2"></i> </li>
+          <li class="firstline"> <img src="img/xndyy.webp" title ="想你的一夜" class="newsongs_pics" alt=""> <a href="#" title="想你的一夜">想你的一夜</a> <a href="#" class="songer" title="孙子涵">孙子涵</a> <span>3:55</span> <i class="mask2"></i> <i class="cover_icon_play2"></i> </li>
+          <li> <img src="img/bjnztj.webp" title ="《北京女子图鉴》网络剧主题曲" class="newsongs_pics" alt=""> <a href="#" title="《北京女子图鉴》网络剧主题曲">送你一匹马 《北京女子...</a> <a href="#" class="songer" title="金志文">金志文</a> <span>2:56</span> <i class="mask2"></i> <i class="cover_icon_play2"></i> </li>
+          <li> <img src="img/sbs.webp" title ="十八岁给我一个姑娘" class="newsongs_pics" alt=""> <a href="#" title="十八岁给我一个姑娘">十八岁给我一个姑娘 《十八岁</a> <a href="#" class="songer" title="好妹妹乐队">好妹妹乐队</a> <span>4:02</span> <i class="mask2"></i> <i class="cover_icon_play2"></i> </li>
+          <li> <img src="img/xajh.webp" title ="《新笑傲江湖》电视剧插曲" class="newsongs_pics" alt=""> <a href="#" title="《新笑傲江湖》电视剧插曲">落花 《新笑傲江湖》电视剧插..</a> <a href="#" class="songer" title="李琦">李琦</a> <span>3:35</span> <i class="mask2"></i> <i class="cover_icon_play2"></i> </li>
+          <li> <img src="img/sorry.webp" title ="Sorry" class="newsongs_pics" alt=""> <a href="#" title="Sorry">Sorry</a> <a href="#" class="songer" title="艾福杰尼">艾福杰尼</a> <span>5:07</span> <i class="mask2"></i> <i class="cover_icon_play2"></i> </li>
+          <li> <img src="img/wbxk.webp" title ="我不想哭" class="newsongs_pics" alt=""> <a href="#" title="我不想哭">我不想哭</a> <a href="#" class="songer" title="晨曦">晨曦</a> <span>4:12</span> <i class="mask2"></i> <i class="cover_icon_play2"></i> </li>
+          <li> <img src="img/hk.webp" title ="花开" class="newsongs_pics"  alt=""> <a href="#" title="花开">花开</a> <a href="#" class="songer" title="陈粒">陈粒</a> <span>3:46</span> <i class="mask2"></i> <i class="cover_icon_play2"></i> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="cl"></div>
+<!--                   尾部             -->
+
+<div class="banquan">
+  <p>Copyright&copy;享听音乐 2022-2023，All&nbsp; Rights&nbsp; Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最后更新：<!-- #BeginDate format:IS1 -->2023-12-08<!-- #EndDate --></p>
+</div>
+</body>
+</html>
